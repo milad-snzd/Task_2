@@ -20,7 +20,7 @@
 
 .grid-container {
     display: grid !important;
-    grid-template-areas: 'header header header header header header' 'menu main main main right right' 'menu footer footer footer footer footer';
+    grid-template-areas: 'header header header header header header' 'menu main main main right right' 'menu footer footer footer footer footer' !important;
     grid-gap: 10px !important;
     background-color: #2196F3;
     padding: 10px !important;
@@ -35,7 +35,7 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto !important;
+    grid-template-columns: auto auto auto;
     grid-gap: 10px;
     background-color: green !important;
     padding: 10px;
